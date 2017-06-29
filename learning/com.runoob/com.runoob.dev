@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=2
+UnitCount=3
 
 [VersionInfo]
 Major=1
@@ -50,18 +50,28 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-[Unit2]
-FileName=main.cpp
+[Unit1]
+FileName=1.2_oop\01_classes_objects.cpp
 CompileCpp=1
-Folder=
+Folder=1.2_oop
 Compile=1
 Link=1
 Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit1]
-FileName=1.2_oop\01_classes_objects.cpp
+[Unit2]
+FileName=1.2_oop\02_class_member_functions.cpp
+CompileCpp=1
+Folder=1.2_oop
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=1.2_oop\03_class_access_modifiers.cpp
 CompileCpp=1
 Folder=1.2_oop
 Compile=1
