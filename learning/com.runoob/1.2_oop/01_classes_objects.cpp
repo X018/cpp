@@ -15,6 +15,10 @@ class Box
 
 int main()
 {
+	cout << "1.2.01_classes_objects" << endl;
+	
+	cout << "--------------------------------" << endl;
+	
 	Box box1;
 	Box box2;
 	double volumn = 0.0;
@@ -32,6 +36,8 @@ int main()
 	// calculate box1's volumn
 	volumn = box1.length * box1.width * box1.height;
 	cout << "box1's volumn is : " << volumn << endl;
+	
+	cout << '\n';
 	
 	// calculate box2's volumn
 	volumn = box2.length * box2.width * box2.height;
