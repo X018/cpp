@@ -59,7 +59,7 @@ void Line::setLength(double len)
 
 int main()
 {
-	cout << "1.2.03_class_access_modifiers" << endl;	
+	cout << "1.2.04_constructor_destructor" << endl;	
 	
 	
 	cout << endl << "--------------------------------" << endl;
