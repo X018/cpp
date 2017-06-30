@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = 1.2_oop/01_classes_objects.o 1.2_oop/02_class_member_functions.o
-LINKOBJ  = 1.2_oop/01_classes_objects.o 1.2_oop/02_class_member_functions.o
+OBJ      = 1.2_oop/01_classes_objects.o 1.2_oop/02_class_member_functions.o 1.2_oop/03_class_access_modifiers.o 1.2_oop/04_constructor_destructor.o 1.2_oop/05_copy_constructor.o 1.2_oop/06_friend_functions.o 1.2_oop/08_this_pointer.o 1.2_oop/07_inline_functions.o 1.2_oop/09_pointer_to_class.o
+LINKOBJ  = 1.2_oop/01_classes_objects.o 1.2_oop/02_class_member_functions.o 1.2_oop/03_class_access_modifiers.o 1.2_oop/04_constructor_destructor.o 1.2_oop/05_copy_constructor.o 1.2_oop/06_friend_functions.o 1.2_oop/08_this_pointer.o 1.2_oop/07_inline_functions.o 1.2_oop/09_pointer_to_class.o
 LIBS     = -L"C:/Programs/Dev-Cpp/MinGW64/lib" -L"C:/Programs/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Programs/Dev-Cpp/MinGW64/include" -I"C:/Programs/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Programs/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Programs/Dev-Cpp/MinGW64/include" -I"C:/Programs/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Programs/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Programs/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -29,3 +29,24 @@ $(BIN): $(OBJ)
 
 1.2_oop/02_class_member_functions.o: 1.2_oop/02_class_member_functions.cpp
 	$(CPP) -c 1.2_oop/02_class_member_functions.cpp -o 1.2_oop/02_class_member_functions.o $(CXXFLAGS)
+
+1.2_oop/03_class_access_modifiers.o: 1.2_oop/03_class_access_modifiers.cpp
+	$(CPP) -c 1.2_oop/03_class_access_modifiers.cpp -o 1.2_oop/03_class_access_modifiers.o $(CXXFLAGS)
+
+1.2_oop/04_constructor_destructor.o: 1.2_oop/04_constructor_destructor.cpp
+	$(CPP) -c 1.2_oop/04_constructor_destructor.cpp -o 1.2_oop/04_constructor_destructor.o $(CXXFLAGS)
+
+1.2_oop/05_copy_constructor.o: 1.2_oop/05_copy_constructor.cpp
+	$(CPP) -c 1.2_oop/05_copy_constructor.cpp -o 1.2_oop/05_copy_constructor.o $(CXXFLAGS)
+
+1.2_oop/06_friend_functions.o: 1.2_oop/06_friend_functions.cpp
+	$(CPP) -c 1.2_oop/06_friend_functions.cpp -o 1.2_oop/06_friend_functions.o $(CXXFLAGS)
+
+1.2_oop/08_this_pointer.o: 1.2_oop/08_this_pointer.cpp
+	$(CPP) -c 1.2_oop/08_this_pointer.cpp -o 1.2_oop/08_this_pointer.o $(CXXFLAGS)
+
+1.2_oop/07_inline_functions.o: 1.2_oop/07_inline_functions.cpp
+	$(CPP) -c 1.2_oop/07_inline_functions.cpp -o 1.2_oop/07_inline_functions.o $(CXXFLAGS)
+
+1.2_oop/09_pointer_to_class.o: 1.2_oop/09_pointer_to_class.cpp
+	$(CPP) -c 1.2_oop/09_pointer_to_class.cpp -o 1.2_oop/09_pointer_to_class.o $(CXXFLAGS)
